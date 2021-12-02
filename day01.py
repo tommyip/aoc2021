@@ -1,6 +1,6 @@
-import sys
+from utils import read_input
 
-depths = [int(x) for x in sys.stdin.readlines()]
+depths = read_input(int)
 
 count_1 = 0
 for i in range(1, len(depths)):
